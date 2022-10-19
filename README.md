@@ -43,6 +43,8 @@ In order to access that endpoint from the internet, we used Ngrok to bind on loc
 
 
 ## Client Setup
+In /routes/view/home.py : change "PUT_YOUR_Domain_here" with the domain name of judge0 server
+
 Run main.py to start the flask app.
 
 

@@ -43,7 +43,7 @@ def search():
             print(challenge_expected_output,challenge_test_input)
             try:
                 # Change ngrok link with your link to judge0 server .. keep the same endpoint "/submissions?base64_encoded=true&wait=true"
-                code_exec_res=requests.post('https://b738-196-203-111-117.eu.ngrok.io/submissions?base64_encoded=true&wait=true', json={
+                code_exec_res=requests.post('PUT_YOUR_Domain_here/submissions?base64_encoded=true&wait=true', json={
                 'stdin': challenge_test_input,
                 'source_code': data['source_code'],
                 'language_id': challenges.get(data['challenge_name'],"50"),
